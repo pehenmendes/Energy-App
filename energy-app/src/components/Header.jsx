@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { MdOutlineEnergySavingsLeaf } from "react-icons/md";
 
 const HeaderContainer = styled.header`
   background-color: #4CAF50;
@@ -20,7 +21,7 @@ function Header() {
   return (
     <HeaderContainer>
       <NavLink to="/">
-        <HeaderTitle>Acesso Universal à Energia</HeaderTitle>
+        <HeaderTitle>  EcoVolt <MdOutlineEnergySavingsLeaf /></HeaderTitle>
       </NavLink>
     </HeaderContainer>
   );

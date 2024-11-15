@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { energyData } from '../../data';
+import { GoArrowLeft } from 'react-icons/go'
 
 const DetailsContainer = styled.div`
   max-width: 800px;
@@ -53,7 +54,7 @@ function EnergySourceDetails() {
 
   return (
     <DetailsContainer>
-      <BackButton to="/">← Voltar</BackButton>
+      <BackButton to="/"><GoArrowLeft /> Voltar</BackButton>
       <h2>{sourceDetails.name}</h2>
       <ImageSection>
         <img src={sourceDetails.image} alt={sourceDetails.name} />

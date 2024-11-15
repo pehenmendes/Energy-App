@@ -10,7 +10,7 @@ const FooterContainer = styled.footer`
 function Footer() {
   return (
     <FooterContainer>
-      <p>&copy; 2024 Acesso Universal à Energia. Todos os direitos reservados.</p>
+      <p>&copy; 2024 EcoVolt. Todos os direitos reservados.</p>
     </FooterContainer>
   );
 }

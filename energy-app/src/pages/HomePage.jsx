@@ -35,19 +35,34 @@ const EnergySourceCard = styled.div`
 const IntroText = styled.div`
   background-color: #e7f3e8;
   padding: 1rem;
-  border-radius: 5px;
+  border-radius: 8px;
   margin-bottom: 1rem;
   line-height: 1.6;
+`
+
+const IntroImage = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 95%;
+    border-radius: 6px;
+  }
 `
 
 function HomePage() {
   return (
     <HomeContainer>
       <IntroText>
-        <p>As fontes de energia renováveis são fundamentais para um futuro mais sustentável e acessível para todas as comunidades ao redor do mundo. Diferente das fontes tradicionais, como os combustíveis fósseis, as energias renováveis — solar, eólica, hidrelétrica, biomassa e geotérmica — são recursos naturais que se regeneram continuamente, permitindo sua utilização sem esgotar os recursos da Terra.</p>
-        <p>A importância dessas fontes vai além da questão ambiental: elas também desempenham um papel crucial no desenvolvimento econômico e social, especialmente em comunidades carentes e em regiões remotas. A energia renovável pode transformar a vida das pessoas ao permitir acesso a eletricidade confiável, o que impulsiona a educação, melhora o atendimento de saúde, aumenta a segurança e estimula a economia local. Em escolas e hospitais, por exemplo, a presença de uma energia constante e limpa significa um ensino mais eficaz e melhores condições de atendimento, salvando vidas e promovendo o bem-estar.</p>
-        <p>Além disso, a adoção das energias renováveis ajuda a mitigar as mudanças climáticas, reduzindo a emissão de gases de efeito estufa e o impacto ambiental. Isso é vital para proteger ecossistemas, reduzir eventos climáticos extremos e preservar a biodiversidade — questões que afetam diretamente a qualidade de vida humana e a segurança alimentar. A geração de empregos nas indústrias de energia limpa também fortalece a economia, ao mesmo tempo em que ajuda na redução de desigualdades, oferecendo oportunidades de trabalho para homens e mulheres em todas as regiões do mundo.</p>
-        <p>Por isso, conscientizar e incentivar o uso das energias renováveis é um passo essencial para construir um planeta mais saudável e equitativo. Ao escolher fontes de energia limpa, estamos investindo em um mundo mais justo e sustentável para as gerações atuais e futuras.</p>
+        <h2>Acesso Universal à Energia</h2>
+        <p>As fontes de energia renováveis, como solar, eólica, hidrelétrica, biomassa e geotérmica, são essenciais para um futuro sustentável, pois se regeneram naturalmente e não esgotam os recursos do planeta. Ao contrário dos combustíveis fósseis, elas causam um impacto ambiental menor e ajudam a reduzir as emissões de gases de efeito estufa, o que é fundamental para enfrentar as mudanças climáticas. A adoção dessas fontes protege ecossistemas, preserva a biodiversidade e melhora a qualidade de vida em todo o mundo.</p>
+        <IntroImage>
+          <img src='https://www.futurosolar.com.br/wp-content/uploads/2018/10/energia-renovavel.jpg' alt='fontes de energia sustentáveis'/>
+        </IntroImage>
+        <p>Essas energias desempenham um papel decisivo no desenvolvimento de comunidades, especialmente em regiões remotas e carentes, onde o acesso à eletricidade transforma a vida das pessoas. Com energia renovável, hospitais, escolas e residências podem contar com um fornecimento estável e seguro, promovendo a educação, a saúde e a segurança, além de impulsionar a economia local. Esse acesso melhora a infraestrutura e permite que essas comunidades avancem com mais oportunidades e qualidade de vida.</p>
+        <p>Incentivar o uso de energias renováveis é investir em um mundo mais justo e sustentável para as próximas gerações. Ao escolher fontes de energia limpa, cada pessoa e comunidade contribui para um planeta mais saudável e equitativo. Além disso, a expansão dessas fontes gera empregos e fomenta o desenvolvimento econômico, ajudando a reduzir desigualdades e proporcionando novas perspectivas de trabalho em todas as regiões.</p>
         <p>Explore as diferentes fontes abaixo e descubra como cada uma pode transformar vidas e proteger nosso planeta.</p>
       </IntroText>
       <h2>Fontes de Energia Renovável</h2>
